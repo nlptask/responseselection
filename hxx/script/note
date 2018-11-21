@@ -1,0 +1,13 @@
+python word2vec_model.py seg_filename model_name word2vec.vector
+
+word2vec_model.py：存放训练代码的Python文件；
+seg_filename：分好词的训练语料；
+model_name：训练好的模型的名称；
+word2vec.vector：得到的词向量；
+
+对于本例来说：
+
+python word2vec_model.py train-s.txt wv.model wv.vector
+
+
+opencc -i train.txt -o train-s.txt -c t2s.json
